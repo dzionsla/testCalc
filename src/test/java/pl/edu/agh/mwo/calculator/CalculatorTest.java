@@ -40,7 +40,7 @@ public class CalculatorTest {
     }
 
     @Test(expected = Exception.class)
-    public void testDivideByZero() {
+    public void testDivideByZero() { 
         Calculator calc = new Calculator();
         calc.divide(5,0);
         //assertEquals(10, calc.divide(5,0));
